@@ -10,13 +10,14 @@ tvs 1200px ate 1400px */
     --cor1: #5f2c82;
 }
 
-@media  screen and (min-width: 768px) and (max-width: 992px) {
+@media  screen and (min-width: 768px) and (max-width: 992px) {/* Responsividade Celulares */
     body,html{
         background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
     }
 
     section#login{
-        width: 80vw;
+        width: 75vw;
+        height: 300px;
     }
     #login > #formulario{
         float: right;
@@ -36,12 +37,13 @@ tvs 1200px ate 1400px */
           
     }
 }
-@media screen and (min-width: 992px){
+@media screen and (min-width: 992px){ /* Responsividade para Desktop e telas maiores */
     body,html{
         background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
     }
     section#login{
-        width: 950px;
+        width: 750px;
+        height: 350px;
     }
     #login > #formulario{
         float: left;
@@ -67,3 +69,27 @@ tvs 1200px ate 1400px */
     }
 
 }
+@media screen and (max-height: 375px) {
+    section#login
+    {
+        height: 300px;
+        width: 80vw;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+    }
+    #login > #formulario{
+        float: right;
+        width: 70%;
+        
+    }
+    #login > #imagem {
+        float: left;
+        width: 30%;
+        height: 100%;
+    }
+
+
+}
+
+

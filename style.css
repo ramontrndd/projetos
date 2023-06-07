@@ -43,7 +43,7 @@ section#login{
 }
 #login > #imagem {
     display: block;
-    background: var(--cor1) url(img/tela-login3.jpg) no-repeat left bottom;
+    background: var(--cor1) url(img/tela-login3.jpg) no-repeat center center;
     height: 200px;
     
     
